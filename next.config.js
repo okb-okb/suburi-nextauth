@@ -1,0 +1,16 @@
+module.exports = {
+  env: {
+    GITHUB_ID: process.env.GITHUB_ID,
+    GITHUB_SECRET: process.env.GITHUB_SECRET,
+    AUTH0_CLIENTID: process.env.AUTH0_CLIENTID,
+    AUTH0_CLIENT_SECRET: process.env.AUTH0_CLIENT_SECRET,
+    AUTH0_DOMAIN: process.env.AUTH0_DOMAIN,
+    EMAIL_SERVER_USER: process.env.EMAIL_SERVER_USER,
+    EMAIL_SERVER_PASSWORD: process.env.EMAIL_SERVER_PASSWORD,
+    EMAIL_SERVER_HOST: process.env.EMAIL_SERVER_HOST,
+    EMAIL_SERVER_PORT: process.env.EMAIL_SERVER_PORT,
+    EMAIL_FROM: process.env.EMAIL_FROM,
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
+    DATABASE_URL: process.env.DATABASE_URL,
+  },
+};
